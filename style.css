@@ -1,0 +1,144 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins;
+        box-sizing: border-box;
+    }
+
+    header {
+        color: #17233D;
+        margin-top: 47px;
+        margin-left: 42px;
+    }
+
+    .menu {
+        color: #17233D;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.875px;
+        margin-right: 32px;
+        cursor: pointer;
+    }
+
+    button {
+        width: 124px;
+        height: 51px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        background: #6FBF44;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    img {
+        margin-top: 163px;
+        margin: 178px 127px;
+        display: inline-block;
+        width: 530px;
+    }
+
+    div {
+        display: inline-block;
+        width: 493px;
+        position: absolute;
+        margin-top: 221px;
+        margin-left: -23px;
+    }
+
+    h1 {
+        color: #161A49;
+        font-family: Poppins;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.596px;
+        width: 582px;
+
+    }
+
+    p {
+        color: #4B505A;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        width: 493px;
+        margin-top: 47px;
+        margin-bottom: 55px;
+    }
+
+    .Learn {
+        color: #6FBF44;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (max-width:700px) {
+
+
+        header {
+            margin-right: -130px;
+            position: absolute;
+            margin-left: 71px;
+            margin-top: 26px;
+            text-align: center;
+        }
+
+        button {
+            position: absolute;
+            margin-right: 47px;
+            margin-top: 29px;
+            margin-left: -147px;
+        }
+
+        img {
+            position: absolute;
+            margin-top: 487px;
+            margin-left: 47px;
+            width: 350px;
+        }
+
+
+
+
+        h1 {
+            margin-top: -51px;
+            width: 278px;
+            margin-left: 115px;
+            height: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0.596px;
+        }
+
+        p {
+            width: 304px;
+            text-align: center;
+            margin-left: 105px;
+            height: 123px;
+        }
+
+        .Learn {
+
+            margin-left: 199px;
+        }
+    }
